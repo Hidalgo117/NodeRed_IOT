@@ -1,0 +1,1268 @@
+[
+    {
+        "id": "b91b9fbfdb312e26",
+        "type": "tab",
+        "label": "Flujo 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "ddc8776152922e59",
+        "type": "group",
+        "z": "b91b9fbfdb312e26",
+        "name": "",
+        "style": {
+            "fill": "#3f93cf",
+            "label": true
+        },
+        "nodes": [
+            "011265d880bb2319",
+            "dc10a0c1dd247990",
+            "859cdc28ee7790f4",
+            "1628c8459ba60f34",
+            "83a9d75b2818ac19",
+            "7b0e4fdc079fc5c8",
+            "73a5403e33c84d15",
+            "8880adc0d4bd2222",
+            "f5f4b8c098209e2d",
+            "63176de69f19c790"
+        ],
+        "x": 154,
+        "y": 419,
+        "w": 692,
+        "h": 282
+    },
+    {
+        "id": "1a3333ad4025b3fd",
+        "type": "group",
+        "z": "b91b9fbfdb312e26",
+        "name": "",
+        "style": {
+            "fill": "#addb7b",
+            "label": true
+        },
+        "nodes": [
+            "14d3a4a78fa3b629",
+            "d984438a1051f2a9",
+            "4062e18a4f8c3121",
+            "d6ceb9cedf7eb1c7",
+            "7c777332ec6b9f00",
+            "49adeb7bad0539b1",
+            "26fa12bedf1379db",
+            "c6132473956b0d46",
+            "2abfb58699876298",
+            "483212cbcfc374b4",
+            "d2163f5eab9151be",
+            "38f3acdf93622804",
+            "6039a65009e3f5f1",
+            "c14f511840fc723b"
+        ],
+        "x": 134,
+        "y": 39,
+        "w": 672,
+        "h": 362
+    },
+    {
+        "id": "3f5ae33d416a0d55",
+        "type": "group",
+        "z": "b91b9fbfdb312e26",
+        "name": "",
+        "style": {
+            "fill": "#9363b7",
+            "label": true
+        },
+        "nodes": [
+            "46ee435695c94f79",
+            "d5a3be5f131df0b0",
+            "d668dd90d198e4e6",
+            "41a33a48d3cb27bc",
+            "145f5c4cd6d360ba",
+            "9d4938f07da41883",
+            "c4fd0852932693c3",
+            "1fa9703247199763"
+        ],
+        "x": 154,
+        "y": 759,
+        "w": 722,
+        "h": 242
+    },
+    {
+        "id": "9b3a9d61e37b9ef3",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 24,
+                "sy": 24,
+                "gx": 0,
+                "gy": 0,
+                "cx": 0,
+                "cy": 0,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "546d6f8eb61ea116",
+        "type": "mqtt-broker",
+        "name": "agua",
+        "broker": "test.mosquitto.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "165b033cce2d6b4a",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "test.mosquitto.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "2d20efdfbbc2edd7",
+        "type": "ui_tab",
+        "name": "Monitoreo",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "55d9ccd0b7c8caeb",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "10.244.62.183",
+        "port": "3306",
+        "db": "IOT",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "bf6aa02d94a214aa",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "mqtt.eclipseprojects.io",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "f0afe7e8ea5f7de9",
+        "type": "ui_group",
+        "name": "Registro Dispensación",
+        "tab": "abb9c4f10cce8df4",
+        "order": 2,
+        "disp": true,
+        "width": "20",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "abb9c4f10cce8df4",
+        "type": "ui_tab",
+        "name": "Registros",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "872a19920b574fc3",
+        "type": "ui_group",
+        "name": "Bomba de agua",
+        "tab": "abb9c4f10cce8df4",
+        "order": 1,
+        "disp": true,
+        "width": "20",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d31324173217c9c8",
+        "type": "ui_spacer",
+        "z": "b91b9fbfdb312e26",
+        "name": "spacer",
+        "group": "aacfcd762b19bcb3",
+        "order": 1,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "b7895dd99d6c0541",
+        "type": "ui_spacer",
+        "z": "b91b9fbfdb312e26",
+        "name": "spacer",
+        "group": "aacfcd762b19bcb3",
+        "order": 2,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "a47a93b5ec2e33c9",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 40
+    },
+    {
+        "id": "3e64181912d6b217",
+        "type": "ui_spacer",
+        "z": "b91b9fbfdb312e26",
+        "name": "spacer",
+        "group": "a47a93b5ec2e33c9",
+        "order": 2,
+        "width": 40,
+        "height": 1
+    },
+    {
+        "id": "bc1036d5462036f3",
+        "type": "ui_spacer",
+        "z": "b91b9fbfdb312e26",
+        "name": "spacer",
+        "group": "a47a93b5ec2e33c9",
+        "order": 6,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "2a5f6d05f4c277a6",
+        "type": "ui_spacer",
+        "z": "b91b9fbfdb312e26",
+        "name": "spacer",
+        "group": "a47a93b5ec2e33c9",
+        "order": 10,
+        "width": 26,
+        "height": 1
+    },
+    {
+        "id": "6253d938f1c461ae",
+        "type": "ui_spacer",
+        "z": "b91b9fbfdb312e26",
+        "name": "spacer",
+        "group": "a47a93b5ec2e33c9",
+        "order": 16,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "e45edfa3798d0e32",
+        "type": "ui_spacer",
+        "z": "b91b9fbfdb312e26",
+        "name": "spacer",
+        "group": "a47a93b5ec2e33c9",
+        "order": 20,
+        "width": 26,
+        "height": 1
+    },
+    {
+        "id": "aa68b0b31fc10e45",
+        "type": "ui_spacer",
+        "z": "b91b9fbfdb312e26",
+        "name": "spacer",
+        "group": "a47a93b5ec2e33c9",
+        "order": 26,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "31084f1d6eaa2dd3",
+        "type": "ui_spacer",
+        "z": "b91b9fbfdb312e26",
+        "name": "spacer",
+        "group": "a47a93b5ec2e33c9",
+        "order": 30,
+        "width": 26,
+        "height": 1
+    },
+    {
+        "id": "77f54d0a91efad89",
+        "type": "ui_spacer",
+        "z": "b91b9fbfdb312e26",
+        "name": "spacer",
+        "group": "a47a93b5ec2e33c9",
+        "order": 34,
+        "width": 34,
+        "height": 1
+    },
+    {
+        "id": "491005dea4150867",
+        "type": "ui_spacer",
+        "z": "b91b9fbfdb312e26",
+        "name": "spacer",
+        "group": "a47a93b5ec2e33c9",
+        "order": 39,
+        "width": 34,
+        "height": 1
+    },
+    {
+        "id": "0d7b5e97b8b4b46c",
+        "type": "ui_spacer",
+        "z": "b91b9fbfdb312e26",
+        "name": "spacer",
+        "group": "a47a93b5ec2e33c9",
+        "order": 42,
+        "width": 37,
+        "height": 1
+    },
+    {
+        "id": "cd986ca172a129d4",
+        "type": "ui_spacer",
+        "z": "b91b9fbfdb312e26",
+        "name": "spacer",
+        "group": "a47a93b5ec2e33c9",
+        "order": 45,
+        "width": 37,
+        "height": 1
+    },
+    {
+        "id": "85a7c30e718a6c78",
+        "type": "ui_group",
+        "name": "Nivel de Agua",
+        "tab": "2d20efdfbbc2edd7",
+        "order": 1,
+        "disp": true,
+        "width": "23",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "798e1e5d03c1d143",
+        "type": "ui_group",
+        "name": "Registro Agua",
+        "tab": "abb9c4f10cce8df4",
+        "order": 3,
+        "disp": true,
+        "width": 20,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "14d3a4a78fa3b629",
+        "type": "function",
+        "z": "b91b9fbfdb312e26",
+        "g": "1a3333ad4025b3fd",
+        "name": "convertir voltaje a %",
+        "func": "var valor = msg.payload;\n\n// Verificamos si el valor está dentro del rango 1-800\nif (valor > -1 && valor < 1400) {\n    const escalaOriginalMin = 1;\n    const escalaOriginalMax = 1500;\n    const escalaNuevaMin = 1;\n    const escalaNuevaMax = 100;\n\n    // Realizamos la conversión\n    var valorConvertido = ((valor - escalaOriginalMin) / (escalaOriginalMax - escalaOriginalMin)) * (escalaNuevaMax - escalaNuevaMin) + escalaNuevaMin;\n\n    // Convertimos el valor a un entero (redondeado)\n    msg.payload = Math.round(valorConvertido);\n} else {\n    // Si el valor no está en el rango, asignamos el valor 100\n    msg.payload = 100;\n}\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 160,
+        "wires": [
+            [
+                "4062e18a4f8c3121",
+                "d6ceb9cedf7eb1c7"
+            ]
+        ]
+    },
+    {
+        "id": "d984438a1051f2a9",
+        "type": "mqtt in",
+        "z": "b91b9fbfdb312e26",
+        "g": "1a3333ad4025b3fd",
+        "name": "",
+        "topic": "iot/water/st/2024",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "bf6aa02d94a214aa",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 260,
+        "y": 80,
+        "wires": [
+            [
+                "14d3a4a78fa3b629",
+                "c14f511840fc723b"
+            ]
+        ]
+    },
+    {
+        "id": "011265d880bb2319",
+        "type": "mqtt out",
+        "z": "b91b9fbfdb312e26",
+        "g": "ddc8776152922e59",
+        "name": "",
+        "topic": "iot/servo/st/2024",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bf6aa02d94a214aa",
+        "x": 640,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "dc10a0c1dd247990",
+        "type": "ui_button",
+        "z": "b91b9fbfdb312e26",
+        "g": "ddc8776152922e59",
+        "name": "",
+        "group": "85a7c30e718a6c78",
+        "order": 3,
+        "width": 23,
+        "height": 2,
+        "passthru": false,
+        "label": "Dispensar alimento",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "ACTIVADO",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 270,
+        "y": 520,
+        "wires": [
+            [
+                "011265d880bb2319"
+            ]
+        ]
+    },
+    {
+        "id": "859cdc28ee7790f4",
+        "type": "mqtt in",
+        "z": "b91b9fbfdb312e26",
+        "g": "ddc8776152922e59",
+        "name": "",
+        "topic": "iot/servo/st/2024",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "bf6aa02d94a214aa",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 260,
+        "y": 580,
+        "wires": [
+            [
+                "1628c8459ba60f34"
+            ]
+        ]
+    },
+    {
+        "id": "4062e18a4f8c3121",
+        "type": "ui_level",
+        "z": "b91b9fbfdb312e26",
+        "g": "1a3333ad4025b3fd",
+        "group": "85a7c30e718a6c78",
+        "order": 1,
+        "width": 3,
+        "height": 10,
+        "name": "",
+        "label": "",
+        "colorHi": "#e60000",
+        "colorWarn": "#ff9900",
+        "colorNormal": "#00b33c",
+        "colorOff": "#595959",
+        "min": 0,
+        "max": 100,
+        "segWarn": "",
+        "segHigh": "",
+        "unit": "",
+        "layout": "sv",
+        "channelA": "",
+        "channelB": "",
+        "decimals": 0,
+        "animations": "soft",
+        "shape": 2,
+        "colorschema": "valuedriven",
+        "textoptions": "default",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "off",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 630,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "1628c8459ba60f34",
+        "type": "function",
+        "z": "b91b9fbfdb312e26",
+        "g": "ddc8776152922e59",
+        "name": "insertar registro",
+        "func": "msg.topic = \"INSERT INTO servo (estado) VALUES ('activado')\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 580,
+        "wires": [
+            [
+                "83a9d75b2818ac19"
+            ]
+        ]
+    },
+    {
+        "id": "83a9d75b2818ac19",
+        "type": "mysql",
+        "z": "b91b9fbfdb312e26",
+        "g": "ddc8776152922e59",
+        "mydb": "55d9ccd0b7c8caeb",
+        "name": "",
+        "x": 610,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d6ceb9cedf7eb1c7",
+        "type": "switch",
+        "z": "b91b9fbfdb312e26",
+        "g": "1a3333ad4025b3fd",
+        "name": "bajo nivel",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "lt",
+                "v": "10",
+                "vt": "num"
+            },
+            {
+                "t": "lt",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 260,
+        "y": 220,
+        "wires": [
+            [
+                "7c777332ec6b9f00"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "7c777332ec6b9f00",
+        "type": "function",
+        "z": "b91b9fbfdb312e26",
+        "g": "1a3333ad4025b3fd",
+        "name": "insert a db",
+        "func": "msg.topic = \"INSERT INTO water (Nivel) VALUES ('Bajo')\";\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 220,
+        "wires": [
+            [
+                "49adeb7bad0539b1"
+            ]
+        ]
+    },
+    {
+        "id": "49adeb7bad0539b1",
+        "type": "mysql",
+        "z": "b91b9fbfdb312e26",
+        "g": "1a3333ad4025b3fd",
+        "mydb": "55d9ccd0b7c8caeb",
+        "name": "",
+        "x": 590,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "46ee435695c94f79",
+        "type": "mysql",
+        "z": "b91b9fbfdb312e26",
+        "g": "3f5ae33d416a0d55",
+        "mydb": "55d9ccd0b7c8caeb",
+        "name": "",
+        "x": 710,
+        "y": 860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d5a3be5f131df0b0",
+        "type": "function",
+        "z": "b91b9fbfdb312e26",
+        "g": "3f5ae33d416a0d55",
+        "name": "insertar registro",
+        "func": "msg.topic = \"INSERT INTO Bomba (Estado) VALUES ('activado')\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 860,
+        "wires": [
+            [
+                "46ee435695c94f79"
+            ]
+        ]
+    },
+    {
+        "id": "d668dd90d198e4e6",
+        "type": "mqtt in",
+        "z": "b91b9fbfdb312e26",
+        "g": "3f5ae33d416a0d55",
+        "name": "",
+        "topic": "iot/bomba/st/2024",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "bf6aa02d94a214aa",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 270,
+        "y": 860,
+        "wires": [
+            [
+                "d5a3be5f131df0b0",
+                "1fa9703247199763"
+            ]
+        ]
+    },
+    {
+        "id": "26fa12bedf1379db",
+        "type": "ui_table",
+        "z": "b91b9fbfdb312e26",
+        "g": "1a3333ad4025b3fd",
+        "group": "798e1e5d03c1d143",
+        "name": "",
+        "order": 1,
+        "width": 20,
+        "height": 6,
+        "columns": [
+            {
+                "field": "ID",
+                "title": "id",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "Nivel",
+                "title": "Nivel",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "fecha",
+                "title": "Fecha",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 730,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "c6132473956b0d46",
+        "type": "mysql",
+        "z": "b91b9fbfdb312e26",
+        "g": "1a3333ad4025b3fd",
+        "mydb": "55d9ccd0b7c8caeb",
+        "name": "",
+        "x": 590,
+        "y": 280,
+        "wires": [
+            [
+                "26fa12bedf1379db"
+            ]
+        ]
+    },
+    {
+        "id": "2abfb58699876298",
+        "type": "function",
+        "z": "b91b9fbfdb312e26",
+        "g": "1a3333ad4025b3fd",
+        "name": "select registro",
+        "func": "msg.topic = \"SELECT ID, Nivel, fecha FROM water;\";\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 280,
+        "wires": [
+            [
+                "c6132473956b0d46"
+            ]
+        ]
+    },
+    {
+        "id": "483212cbcfc374b4",
+        "type": "inject",
+        "z": "b91b9fbfdb312e26",
+        "g": "1a3333ad4025b3fd",
+        "name": "SELECT",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 240,
+        "y": 280,
+        "wires": [
+            [
+                "2abfb58699876298"
+            ]
+        ]
+    },
+    {
+        "id": "d2163f5eab9151be",
+        "type": "inject",
+        "z": "b91b9fbfdb312e26",
+        "g": "1a3333ad4025b3fd",
+        "name": "DELETE",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 240,
+        "y": 360,
+        "wires": [
+            [
+                "38f3acdf93622804"
+            ]
+        ]
+    },
+    {
+        "id": "38f3acdf93622804",
+        "type": "function",
+        "z": "b91b9fbfdb312e26",
+        "g": "1a3333ad4025b3fd",
+        "name": "eliminar registro",
+        "func": "msg.topic=\"DELETE FROM water;\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 360,
+        "wires": [
+            [
+                "6039a65009e3f5f1"
+            ]
+        ]
+    },
+    {
+        "id": "6039a65009e3f5f1",
+        "type": "mysql",
+        "z": "b91b9fbfdb312e26",
+        "g": "1a3333ad4025b3fd",
+        "mydb": "55d9ccd0b7c8caeb",
+        "name": "",
+        "x": 590,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7b0e4fdc079fc5c8",
+        "type": "inject",
+        "z": "b91b9fbfdb312e26",
+        "g": "ddc8776152922e59",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 280,
+        "y": 660,
+        "wires": [
+            [
+                "73a5403e33c84d15"
+            ]
+        ]
+    },
+    {
+        "id": "73a5403e33c84d15",
+        "type": "function",
+        "z": "b91b9fbfdb312e26",
+        "g": "ddc8776152922e59",
+        "name": "select registros",
+        "func": "msg.topic =\"SELECT ID, estado, fecha FROM servo;\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 660,
+        "wires": [
+            [
+                "8880adc0d4bd2222"
+            ]
+        ]
+    },
+    {
+        "id": "8880adc0d4bd2222",
+        "type": "mysql",
+        "z": "b91b9fbfdb312e26",
+        "g": "ddc8776152922e59",
+        "mydb": "55d9ccd0b7c8caeb",
+        "name": "",
+        "x": 630,
+        "y": 660,
+        "wires": [
+            [
+                "f5f4b8c098209e2d"
+            ]
+        ]
+    },
+    {
+        "id": "f5f4b8c098209e2d",
+        "type": "ui_table",
+        "z": "b91b9fbfdb312e26",
+        "g": "ddc8776152922e59",
+        "group": "f0afe7e8ea5f7de9",
+        "name": "",
+        "order": 1,
+        "width": 20,
+        "height": 6,
+        "columns": [
+            {
+                "field": "ID",
+                "title": "id",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "estado",
+                "title": "Estado",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "fecha",
+                "title": "Fecha",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 770,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "41a33a48d3cb27bc",
+        "type": "function",
+        "z": "b91b9fbfdb312e26",
+        "g": "3f5ae33d416a0d55",
+        "name": "select registro",
+        "func": "msg.topic=\"SELECT ID, Estado, Fecha FROM Bomba;\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 960,
+        "wires": [
+            [
+                "145f5c4cd6d360ba"
+            ]
+        ]
+    },
+    {
+        "id": "145f5c4cd6d360ba",
+        "type": "mysql",
+        "z": "b91b9fbfdb312e26",
+        "g": "3f5ae33d416a0d55",
+        "mydb": "55d9ccd0b7c8caeb",
+        "name": "",
+        "x": 640,
+        "y": 960,
+        "wires": [
+            [
+                "9d4938f07da41883"
+            ]
+        ]
+    },
+    {
+        "id": "9d4938f07da41883",
+        "type": "ui_table",
+        "z": "b91b9fbfdb312e26",
+        "g": "3f5ae33d416a0d55",
+        "group": "872a19920b574fc3",
+        "name": "",
+        "order": 1,
+        "width": 20,
+        "height": 7,
+        "columns": [
+            {
+                "field": "ID",
+                "title": "id",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "Estado",
+                "title": "estado",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "Fecha",
+                "title": "fecha",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 800,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "c4fd0852932693c3",
+        "type": "ui_ui_control",
+        "z": "b91b9fbfdb312e26",
+        "g": "3f5ae33d416a0d55",
+        "name": "",
+        "events": "all",
+        "x": 240,
+        "y": 960,
+        "wires": [
+            [
+                "41a33a48d3cb27bc"
+            ]
+        ]
+    },
+    {
+        "id": "63176de69f19c790",
+        "type": "ui_time_scheduler_spanish",
+        "z": "b91b9fbfdb312e26",
+        "g": "ddc8776152922e59",
+        "group": "85a7c30e718a6c78",
+        "name": "Calendario",
+        "startDay": 0,
+        "refresh": 60,
+        "devices": [
+            "Dispensador"
+        ],
+        "singleOff": false,
+        "onlySendChange": false,
+        "customPayload": false,
+        "eventMode": true,
+        "eventOptions": [
+            {
+                "label": "Dispensar",
+                "event": "true"
+            }
+        ],
+        "sendTopic": false,
+        "lat": "",
+        "lon": "",
+        "customContextStore": "",
+        "outputs": 2,
+        "order": 2,
+        "width": 20,
+        "height": 10,
+        "x": 250,
+        "y": 460,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "c14f511840fc723b",
+        "type": "debug",
+        "z": "b91b9fbfdb312e26",
+        "g": "1a3333ad4025b3fd",
+        "name": "debug 1",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "1fa9703247199763",
+        "type": "debug",
+        "z": "b91b9fbfdb312e26",
+        "g": "3f5ae33d416a0d55",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 600,
+        "y": 800,
+        "wires": []
+    }
+]
